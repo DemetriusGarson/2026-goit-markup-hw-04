@@ -73,6 +73,10 @@ img{
 .header{
     /* HW3 */
     border-bottom: 1px solid #e7e9fc;
+    /* HW4 */
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header .container {
@@ -163,6 +167,17 @@ img{
     background-color: #2e2f42;
     /* HW3 */
     padding: 188px 0;
+    /* HW4 */
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background-images/background-image-opt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero .container {
@@ -201,6 +216,8 @@ img{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     min-width: 169px;
     height: 56px;
+    /* HW4 */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
