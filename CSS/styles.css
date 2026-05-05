@@ -272,6 +272,19 @@ img{
     width: calc((100% - 3 * 24px) / 4);
 }
 
+.benefits-list-icon{
+    /* HW4 */
+    max-width: 264px;
+    height: 112px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .benefits-list-heading{
     font-weight: 500;
     font-size: 20px;
