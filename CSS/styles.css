@@ -132,7 +132,7 @@ img{
     color: #404bbf;
 }
 
-.header-navigation-list-item:nth-child(1) .header-navigation-list-reference:active::after{
+.header-navigation-list-item .header-navigation-list-reference:active::after{
     /* HW4 */
     content: '';
     width: 100%;
